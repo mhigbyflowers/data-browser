@@ -11,6 +11,7 @@ export class TestDataComponent implements OnInit {
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
+    this.dataService.getData();
   }
 
 }
